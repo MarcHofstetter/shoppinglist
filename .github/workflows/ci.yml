@@ -43,7 +43,7 @@ jobs:
         run: npm install --legacy-peer-deps
 
       - name: Run tests
-        run: npm test && "Jest tests passed"
+        run: npm test && echo "Jest tests passed"
 
   deploy:
     name: Deployment Job
