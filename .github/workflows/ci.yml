@@ -8,7 +8,7 @@ on:
 
 jobs:
   lint:
-    name: 🔍 Linting Job
+    name:  Linting Job
     runs-on: ubuntu-latest
     steps:
       - name:  Checkout code
@@ -41,7 +41,7 @@ jobs:
         run: npm test && echo  Jest tests completed successfully"
 
   deploy:
-    name: 🚀 Deployment Job
+    name:  Deployment Job
     runs-on: ubuntu-latest
     needs: test
     steps:
